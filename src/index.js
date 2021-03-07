@@ -11,8 +11,8 @@ app.get('/',(req,res)=>{
     res.sendFile(indexPage)
 })
 app.get('/tryMe',(req,res)=>{
-    const indexPage=path.join(__dirname,'../public/tryMe.html')
-    res.sendFile(indexPage)
+    const tryMePage=path.join(__dirname,'../public/tryMe.html')
+    res.sendFile(tryMePage)
 })
 
 app.listen(port,()=>{
